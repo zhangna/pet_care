@@ -11,6 +11,7 @@ export default function Booking() {
   const [breed, setBreed] = useState('');
   const [service, setService] = useState('');
   const [date, setDate] = useState('');
+  const [time, setTime] = useState('10:00');
   const [toastShow, setToastShow] = useState(false);
 
   const handleSubmit = useCallback((e: React.FormEvent) => {
@@ -25,6 +26,7 @@ export default function Booking() {
     setBreed('');
     setService('');
     setDate('');
+    setTime('10:00');
   }, [name, phone]);
 
   return (
@@ -95,6 +97,14 @@ export default function Booking() {
                 type="date"
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
+              />
+            </div>
+            <div className={styles.formGroup}>
+              <label>期望时间</label>
+              <input
+                type="time"
+                value={time}
+                onChange={(e) => setTime(e.target.value)}
               />
             </div>
             <button className={styles.btnSubmit} type="submit">提交预约 🎉</button>
