@@ -56,7 +56,7 @@ export default function Booking() {
           <h3 className={styles.formTitle}>🐾 快速预约</h3>
           <form className={styles.form} onSubmit={handleSubmit}>
             <div className={styles.formGroup}>
-              <label>铲屎官称呼</label>
+              <label>您的姓名</label>
               <input
                 type="text"
                 placeholder="怎么称呼您？"
