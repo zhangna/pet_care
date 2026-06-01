@@ -2,6 +2,7 @@ export const navLinks = [
   { href: '#services', label: '服务项目' },
   { href: '#pricing', label: '价格方案' },
   { href: '#gallery', label: '环境展示' },
+  { href: '#store-map', label: '门店地图' },
   { href: '#booking', label: '在线预约' },
 ];
 
@@ -83,11 +84,20 @@ export const bookingServices = [
   { value: 'premium', label: '👑 尊享全套 ¥388' },
 ];
 
+export const storeInfo = {
+  address: '上海市静安区南京西路1688号1楼L109',
+  phone: '021-8888-6666',
+  hours: '周一至周日 10:00 - 21:00',
+  coords: { lng: 121.4547, lat: 31.2304 },
+  mapUrl: 'https://uri.amap.com/marker?position=121.4547,31.2304&name=爪爪洗护',
+};
+
 export const footerLinks = {
   navigate: [
     { href: '#services', label: '服务项目' },
     { href: '#pricing', label: '价格方案' },
     { href: '#gallery', label: '作品展示' },
+    { href: '#store-map', label: '门店地图' },
     { href: '#booking', label: '在线预约' },
   ],
   support: [
