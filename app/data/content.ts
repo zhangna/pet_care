@@ -6,68 +6,38 @@ export const navLinks = [
 ];
 
 export const services = [
-  {
-    icon: '🛁',
-    title: '基础洗护',
-    price: '¥128',
-    desc: '进口洗发水 + 护毛素、耳道清洁、指甲修剪、肛门腺清理、全身按摩',
-    features: ['天然进口洗护品', '45分钟精致服务', '毛发状态评估报告'],
-    highlight: false,
-  },
-  {
-    icon: '✨',
-    title: '精致洗护',
-    price: '¥228',
-    desc: '含基础洗护全部项目 + 深层SPA水疗、足部护理、腹部清洁、口腔喷雾',
-    features: ['深层SPA碳酸水疗', '日本进口营养油', '专属洗护档案'],
-    highlight: true,
-  },
-  {
-    icon: '👑',
-    title: '尊享 SPA',
-    price: '¥388',
-    desc: '含精致洗护全部项目 + 毛发修复、精油按摩、造型修剪、专属接送',
-    features: ['意大利天然精油SPA', '血统级毛发修复', '市区免费上门接送'],
-    highlight: false,
-  },
+  { icon: '🛁', title: '基础清洁', desc: '温和沐浴、耳道清洁、眼部护理、指甲修剪、肛门腺清理，全面基础护理。' },
+  { icon: '✨', title: '精致SPA', desc: '深层清洁+护毛素滋养、精油按摩放松、毛发蓬松造型，给毛孩子奢享体验。' },
+  { icon: '✂️', title: '美容造型', desc: '专业宠物造型师设计、根据品种标准修剪，让毛孩子靓丽出街回头率满分。' },
+  { icon: '🦷', title: '口腔护理', desc: '超声波洁牙、口腔检查、去除牙结石，守护毛孩子口腔健康清新口气。' },
+  { icon: '🧴', title: '皮肤护理', desc: '针对敏感肌、皮屑、瘙痒问题，使用药用级洗护产品进行专项调理。' },
+  { icon: '🚗', title: '上门接送', desc: '3公里内免费接送，让毛孩子足不出户享受专业洗护，铲屎官更省心。' },
 ];
 
 export const pricingPlans = [
   {
-    name: '基础洗护',
+    icon: '🛁',
+    title: '基础洗护',
+    subtitle: '日常清洁首选',
     price: '128',
-    per: '/次',
-    features: [
-      '进口洗护用品',
-      '基础清洁套餐',
-      '耳道 / 指甲 / 肛门腺',
-      '45分钟精致服务',
-    ],
-    recommended: false,
+    features: ['基础沐浴清洁', '耳道 & 眼部护理', '指甲修剪', '肛门腺清理', '毛发吹干梳理'],
+    featured: false,
   },
   {
-    name: '精致洗护',
+    icon: '✨',
+    title: '精致SPA',
+    subtitle: '深度护理热门',
     price: '228',
-    per: '/次',
-    features: [
-      '全部基础项目',
-      '碳酸SPA水疗',
-      '日本进口营养油护理',
-      '宠物洗护档案建立',
-    ],
-    recommended: true,
+    features: ['包含基础洗护全部', '深层护毛素滋养', '精油按摩放松', '造型修剪', '专属香氛喷雾'],
+    featured: true,
   },
   {
-    name: '尊享SPA',
+    icon: '👑',
+    title: '尊享全套',
+    subtitle: '一劳永逸之选',
     price: '388',
-    per: '/次',
-    features: [
-      '全部精致项目',
-      '意大利天然精油SPA',
-      '毛发深层修复',
-      '市区免费上门接送',
-    ],
-    recommended: false,
+    features: ['包含精致SPA全部', '口腔洁牙护理', '皮肤专项检测', '一次免费接送', '下次消费9折券'],
+    featured: false,
   },
 ];
 

@@ -1,8 +1,8 @@
 .toast {
   position: fixed;
-  bottom: 32px;
+  top: 24px;
   left: 50%;
-  transform: translateX(-50%) translateY(100px);
+  transform: translateX(-50%) translateY(-120px);
   background: var(--primary);
   color: #fff;
   padding: 14px 28px;
