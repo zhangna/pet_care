@@ -4,6 +4,7 @@ import Services from '@/app/components/Services';
 import Pricing from '@/app/components/Pricing';
 import Gallery from '@/app/components/Gallery';
 import Testimonials from '@/app/components/Testimonials';
+import Map from '@/app/components/Map';
 import Booking from '@/app/components/Booking';
 import Footer from '@/app/components/Footer';
 
@@ -17,6 +18,7 @@ export default function Home() {
         <Pricing />
         <Gallery />
         <Testimonials />
+        <Map />
         <Booking />
       </main>
       <Footer />
