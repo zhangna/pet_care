@@ -10,3 +10,7 @@ output/
 # misc
 .DS_Store
 *.tsbuildinfo
+
+# Local Netlify folder
+.netlify
+.env*.local
